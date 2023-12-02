@@ -1,0 +1,98 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: LatoBold;
+    src: url(fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: Jost;
+    src: url(fonts/Jost-VariableFont_wght.ttf);
+}
+
+.header {
+    padding: 0px;
+    margin: 0px;
+    height: 82px;
+    background-color: mintcream;
+}
+
+#name {
+    font-family: "LatoBold";
+    float: left;
+    padding-left: 20px;
+}
+
+.hlinks {
+    float: right;
+}
+
+#hlzaif {
+    padding-top: 4px;
+    padding-right: 20px;
+    font-family: "Jost";
+    font-weight: 400;
+    float: right;
+    color: black;
+    text-decoration: none;
+}
+
+#welcome {
+    font-family: "Lato";
+    font-size: 84px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 300px;
+}
+
+.myfavcar {
+    margin: 0px;
+    padding: 0px;
+}
+
+#car {
+    font-family: "Lato";
+    padding-top: 24px;
+    font-size: 100px;
+    float: left;
+    padding-left: 18px;
+}
+
+#carimg {
+    float: right;
+    max-width: 500px;
+    margin-right: 18px;
+    border-radius: 18px;
+}
+
+.myfavplayer {
+    padding-top: 354px;
+}
+
+#player {
+    font-family: "Lato";
+    font-size: 72px;
+    padding-top: 64px;
+    float: right;
+    padding-right: 18px;
+}
+
+#playerimg {
+    border-radius: 18px;
+    float: left;
+    max-width: 500px;
+    margin-left: 18px;
+}
